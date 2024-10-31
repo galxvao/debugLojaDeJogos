@@ -44,7 +44,7 @@ public class LojaJogos {
 
     public void comprarJogo(String titulo) {
         Jogo jogo = buscarJogoNoEstoque(titulo);
-        if (jogo != null && jogo.getCopias() > 0) {
+        if (jogo.getCopias() > 0 && jogo != null) {
             jogo.setCopias(jogo.getCopias() - 1);
         }
     }

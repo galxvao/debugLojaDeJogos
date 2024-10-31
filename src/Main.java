@@ -16,7 +16,7 @@ public class Main {
         loja.adicionarJogoNaLista("Ana", "The Sims 4");
 
         // Realiza algumas compras
-        loja.comprarJogo("Minecraft");
+        loja.comprarJogo("HABBOO");
         loja.comprarJogo("Minecraft");
         loja.comprarJogo("The Sims 4");
 
